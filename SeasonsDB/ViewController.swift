@@ -7,12 +7,31 @@
 //
 
 import UIKit
+import Alamofire
 
 class ViewController: UIViewController {
 
+    var myTVResponse : TVFeedsModel?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let tvURL = "https://itunes.apple.com/us/rss/toptvepisodes/limit=10/json"
+        Alamofire.request(.GET, tvURL).responseObject("feed") { (response: Response<TVFeedsModel, NSError>) in
+            
+            let tvResponse = response.result.value
+            
+            for tvData in (tvResponse?.arrEntry)! {
+                print(tvData.imArtist)
+                print(tvData.imImageHigh)
+                print(tvData.imName)
+                print(tvData.imPrice)
+                print(tvData.imReleaseDate)
+                print(tvData.summary)
+                print(tvData.rights)
+            }
+            
+        }
     }
 
     override func didReceiveMemoryWarning() {

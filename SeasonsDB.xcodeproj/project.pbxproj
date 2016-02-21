@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2A2BB6B6B6A11E89070E7217 /* Pods_SeasonsDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1119308F41D7368214B1B00C /* Pods_SeasonsDB.framework */; };
+		D5458CB41C798F2C00E19724 /* TVFeedsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5458CB31C798F2C00E19724 /* TVFeedsModel.swift */; };
 		D59AD43E1C79837900FE431D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59AD43D1C79837900FE431D /* AppDelegate.swift */; };
 		D59AD4401C79837900FE431D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59AD43F1C79837900FE431D /* ViewController.swift */; };
 		D59AD4431C79837900FE431D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D59AD4411C79837900FE431D /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 		1119308F41D7368214B1B00C /* Pods_SeasonsDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeasonsDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CF62E7887A4D2DC643352B2 /* Pods-SeasonsDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeasonsDB.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeasonsDB/Pods-SeasonsDB.release.xcconfig"; sourceTree = "<group>"; };
 		AA4B252D64BDC17BFA3A3CF9 /* Pods-SeasonsDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeasonsDB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeasonsDB/Pods-SeasonsDB.debug.xcconfig"; sourceTree = "<group>"; };
+		D5458CB31C798F2C00E19724 /* TVFeedsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVFeedsModel.swift; sourceTree = "<group>"; };
 		D59AD43A1C79837900FE431D /* SeasonsDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeasonsDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D59AD43D1C79837900FE431D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D59AD43F1C79837900FE431D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 			children = (
 				D59AD43D1C79837900FE431D /* AppDelegate.swift */,
 				D59AD43F1C79837900FE431D /* ViewController.swift */,
+				D5458CB31C798F2C00E19724 /* TVFeedsModel.swift */,
 				D59AD4411C79837900FE431D /* Main.storyboard */,
 				D59AD4441C79837900FE431D /* Assets.xcassets */,
 				D59AD4461C79837900FE431D /* LaunchScreen.storyboard */,
@@ -212,6 +215,7 @@
 			files = (
 				D59AD4401C79837900FE431D /* ViewController.swift in Sources */,
 				D59AD43E1C79837900FE431D /* AppDelegate.swift in Sources */,
+				D5458CB41C798F2C00E19724 /* TVFeedsModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
