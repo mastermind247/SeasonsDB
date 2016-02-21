@@ -9,11 +9,23 @@
 /* Begin PBXBuildFile section */
 		2A2BB6B6B6A11E89070E7217 /* Pods_SeasonsDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1119308F41D7368214B1B00C /* Pods_SeasonsDB.framework */; };
 		D5458CB41C798F2C00E19724 /* TVFeedsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5458CB31C798F2C00E19724 /* TVFeedsModel.swift */; };
+		D5458CB61C7998AD00E19724 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5458CB51C7998AD00E19724 /* MainTableViewController.swift */; };
+		D5458CB81C79991600E19724 /* DemoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5458CB71C79991600E19724 /* DemoTableViewCell.swift */; };
 		D59AD43E1C79837900FE431D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59AD43D1C79837900FE431D /* AppDelegate.swift */; };
 		D59AD4401C79837900FE431D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59AD43F1C79837900FE431D /* ViewController.swift */; };
 		D59AD4431C79837900FE431D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D59AD4411C79837900FE431D /* Main.storyboard */; };
 		D59AD4451C79837900FE431D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D59AD4441C79837900FE431D /* Assets.xcassets */; };
 		D59AD4481C79837900FE431D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D59AD4461C79837900FE431D /* LaunchScreen.storyboard */; };
+		D5AB413B1C79CC0A0091334B /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5AB41311C79CC0A0091334B /* OpenSans-Bold.ttf */; };
+		D5AB413C1C79CC0A0091334B /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5AB41321C79CC0A0091334B /* OpenSans-BoldItalic.ttf */; };
+		D5AB413D1C79CC0A0091334B /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5AB41331C79CC0A0091334B /* OpenSans-ExtraBold.ttf */; };
+		D5AB413E1C79CC0A0091334B /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5AB41341C79CC0A0091334B /* OpenSans-ExtraBoldItalic.ttf */; };
+		D5AB413F1C79CC0A0091334B /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5AB41351C79CC0A0091334B /* OpenSans-Italic.ttf */; };
+		D5AB41401C79CC0A0091334B /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5AB41361C79CC0A0091334B /* OpenSans-Light.ttf */; };
+		D5AB41411C79CC0A0091334B /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5AB41371C79CC0A0091334B /* OpenSans-LightItalic.ttf */; };
+		D5AB41421C79CC0A0091334B /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5AB41381C79CC0A0091334B /* OpenSans-Regular.ttf */; };
+		D5AB41431C79CC0A0091334B /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5AB41391C79CC0A0091334B /* OpenSans-Semibold.ttf */; };
+		D5AB41441C79CC0A0091334B /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5AB413A1C79CC0A0091334B /* OpenSans-SemiboldItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +33,8 @@
 		2CF62E7887A4D2DC643352B2 /* Pods-SeasonsDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeasonsDB.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeasonsDB/Pods-SeasonsDB.release.xcconfig"; sourceTree = "<group>"; };
 		AA4B252D64BDC17BFA3A3CF9 /* Pods-SeasonsDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeasonsDB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeasonsDB/Pods-SeasonsDB.debug.xcconfig"; sourceTree = "<group>"; };
 		D5458CB31C798F2C00E19724 /* TVFeedsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVFeedsModel.swift; sourceTree = "<group>"; };
+		D5458CB51C7998AD00E19724 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		D5458CB71C79991600E19724 /* DemoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoTableViewCell.swift; sourceTree = "<group>"; };
 		D59AD43A1C79837900FE431D /* SeasonsDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeasonsDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D59AD43D1C79837900FE431D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D59AD43F1C79837900FE431D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +42,16 @@
 		D59AD4441C79837900FE431D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D59AD4471C79837900FE431D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D59AD4491C79837900FE431D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5AB41311C79CC0A0091334B /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		D5AB41321C79CC0A0091334B /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		D5AB41331C79CC0A0091334B /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		D5AB41341C79CC0A0091334B /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		D5AB41351C79CC0A0091334B /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		D5AB41361C79CC0A0091334B /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		D5AB41371C79CC0A0091334B /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		D5AB41381C79CC0A0091334B /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		D5AB41391C79CC0A0091334B /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		D5AB413A1C79CC0A0091334B /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,8 +96,11 @@
 		D59AD43C1C79837900FE431D /* SeasonsDB */ = {
 			isa = PBXGroup;
 			children = (
+				D5AB41301C79CC0A0091334B /* Fonts */,
 				D59AD43D1C79837900FE431D /* AppDelegate.swift */,
 				D59AD43F1C79837900FE431D /* ViewController.swift */,
+				D5458CB51C7998AD00E19724 /* MainTableViewController.swift */,
+				D5458CB71C79991600E19724 /* DemoTableViewCell.swift */,
 				D5458CB31C798F2C00E19724 /* TVFeedsModel.swift */,
 				D59AD4411C79837900FE431D /* Main.storyboard */,
 				D59AD4441C79837900FE431D /* Assets.xcassets */,
@@ -81,6 +108,23 @@
 				D59AD4491C79837900FE431D /* Info.plist */,
 			);
 			path = SeasonsDB;
+			sourceTree = "<group>";
+		};
+		D5AB41301C79CC0A0091334B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D5AB41311C79CC0A0091334B /* OpenSans-Bold.ttf */,
+				D5AB41321C79CC0A0091334B /* OpenSans-BoldItalic.ttf */,
+				D5AB41331C79CC0A0091334B /* OpenSans-ExtraBold.ttf */,
+				D5AB41341C79CC0A0091334B /* OpenSans-ExtraBoldItalic.ttf */,
+				D5AB41351C79CC0A0091334B /* OpenSans-Italic.ttf */,
+				D5AB41361C79CC0A0091334B /* OpenSans-Light.ttf */,
+				D5AB41371C79CC0A0091334B /* OpenSans-LightItalic.ttf */,
+				D5AB41381C79CC0A0091334B /* OpenSans-Regular.ttf */,
+				D5AB41391C79CC0A0091334B /* OpenSans-Semibold.ttf */,
+				D5AB413A1C79CC0A0091334B /* OpenSans-SemiboldItalic.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		EAA04EB44B03ACA4C14F9F80 /* Frameworks */ = {
@@ -126,6 +170,7 @@
 				TargetAttributes = {
 					D59AD4391C79837900FE431D = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 9MXB9EHJSS;
 					};
 				};
 			};
@@ -152,9 +197,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5AB41431C79CC0A0091334B /* OpenSans-Semibold.ttf in Resources */,
+				D5AB41441C79CC0A0091334B /* OpenSans-SemiboldItalic.ttf in Resources */,
 				D59AD4481C79837900FE431D /* LaunchScreen.storyboard in Resources */,
+				D5AB41421C79CC0A0091334B /* OpenSans-Regular.ttf in Resources */,
+				D5AB413F1C79CC0A0091334B /* OpenSans-Italic.ttf in Resources */,
+				D5AB413E1C79CC0A0091334B /* OpenSans-ExtraBoldItalic.ttf in Resources */,
 				D59AD4451C79837900FE431D /* Assets.xcassets in Resources */,
+				D5AB41411C79CC0A0091334B /* OpenSans-LightItalic.ttf in Resources */,
+				D5AB413B1C79CC0A0091334B /* OpenSans-Bold.ttf in Resources */,
 				D59AD4431C79837900FE431D /* Main.storyboard in Resources */,
+				D5AB41401C79CC0A0091334B /* OpenSans-Light.ttf in Resources */,
+				D5AB413C1C79CC0A0091334B /* OpenSans-BoldItalic.ttf in Resources */,
+				D5AB413D1C79CC0A0091334B /* OpenSans-ExtraBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,8 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5458CB61C7998AD00E19724 /* MainTableViewController.swift in Sources */,
 				D59AD4401C79837900FE431D /* ViewController.swift in Sources */,
 				D59AD43E1C79837900FE431D /* AppDelegate.swift in Sources */,
+				D5458CB81C79991600E19724 /* DemoTableViewCell.swift in Sources */,
 				D5458CB41C798F2C00E19724 /* TVFeedsModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -328,10 +385,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SeasonsDB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mastermind.SeasonsDB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -341,10 +400,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SeasonsDB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mastermind.SeasonsDB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
