@@ -1,0 +1,6 @@
+framework module Pods_SeasonsDB {
+  umbrella header "Pods-SeasonsDB-umbrella.h"
+
+  export *
+  module * { export * }
+}

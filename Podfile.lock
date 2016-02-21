@@ -1,0 +1,29 @@
+PODS:
+  - Alamofire (3.2.0)
+  - AlamofireObjectMapper (2.1.2):
+    - Alamofire (~> 3.2)
+    - ObjectMapper (~> 1.0)
+  - EZSwiftExtensions (1.1.1)
+  - FoldingCell (0.7.1)
+  - HanekeSwift (0.10.1)
+  - LTMorphingLabel (0.1.1)
+  - ObjectMapper (1.1.5)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireObjectMapper
+  - EZSwiftExtensions
+  - FoldingCell
+  - HanekeSwift
+  - LTMorphingLabel
+
+SPEC CHECKSUMS:
+  Alamofire: 4da478599fccddff361205c8929333d7fe18dceb
+  AlamofireObjectMapper: 82391c31f23e37bdb2660da174bcf81b202da39d
+  EZSwiftExtensions: 154c9da7b929f8b04b194e290181be42b49c46b6
+  FoldingCell: 1b048934f8ecd15fa18a20375d55c6b0e83c4f37
+  HanekeSwift: 08e47d3d0f2899ec58e5d257beba0de619aca9e8
+  LTMorphingLabel: dfc40f43a0dcf81867b1f29431f34e861a5f1b35
+  ObjectMapper: 528b1a6677a6acac7747edd508576983e76a9148
+
+COCOAPODS: 0.39.0

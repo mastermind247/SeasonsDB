@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A2BB6B6B6A11E89070E7217 /* Pods_SeasonsDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1119308F41D7368214B1B00C /* Pods_SeasonsDB.framework */; };
+		D59AD43E1C79837900FE431D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59AD43D1C79837900FE431D /* AppDelegate.swift */; };
+		D59AD4401C79837900FE431D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59AD43F1C79837900FE431D /* ViewController.swift */; };
+		D59AD4431C79837900FE431D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D59AD4411C79837900FE431D /* Main.storyboard */; };
+		D59AD4451C79837900FE431D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D59AD4441C79837900FE431D /* Assets.xcassets */; };
+		D59AD4481C79837900FE431D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D59AD4461C79837900FE431D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1119308F41D7368214B1B00C /* Pods_SeasonsDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeasonsDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CF62E7887A4D2DC643352B2 /* Pods-SeasonsDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeasonsDB.release.xcconfig"; path = "Pods/Target Support Files/Pods-SeasonsDB/Pods-SeasonsDB.release.xcconfig"; sourceTree = "<group>"; };
+		AA4B252D64BDC17BFA3A3CF9 /* Pods-SeasonsDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeasonsDB.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SeasonsDB/Pods-SeasonsDB.debug.xcconfig"; sourceTree = "<group>"; };
+		D59AD43A1C79837900FE431D /* SeasonsDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeasonsDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D59AD43D1C79837900FE431D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D59AD43F1C79837900FE431D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D59AD4421C79837900FE431D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D59AD4441C79837900FE431D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D59AD4471C79837900FE431D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D59AD4491C79837900FE431D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D59AD4371C79837900FE431D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A2BB6B6B6A11E89070E7217 /* Pods_SeasonsDB.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E371CAA6B5D4E249C7A729A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA4B252D64BDC17BFA3A3CF9 /* Pods-SeasonsDB.debug.xcconfig */,
+				2CF62E7887A4D2DC643352B2 /* Pods-SeasonsDB.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D59AD4311C79837900FE431D = {
+			isa = PBXGroup;
+			children = (
+				D59AD43C1C79837900FE431D /* SeasonsDB */,
+				D59AD43B1C79837900FE431D /* Products */,
+				5E371CAA6B5D4E249C7A729A /* Pods */,
+				EAA04EB44B03ACA4C14F9F80 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D59AD43B1C79837900FE431D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D59AD43A1C79837900FE431D /* SeasonsDB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D59AD43C1C79837900FE431D /* SeasonsDB */ = {
+			isa = PBXGroup;
+			children = (
+				D59AD43D1C79837900FE431D /* AppDelegate.swift */,
+				D59AD43F1C79837900FE431D /* ViewController.swift */,
+				D59AD4411C79837900FE431D /* Main.storyboard */,
+				D59AD4441C79837900FE431D /* Assets.xcassets */,
+				D59AD4461C79837900FE431D /* LaunchScreen.storyboard */,
+				D59AD4491C79837900FE431D /* Info.plist */,
+			);
+			path = SeasonsDB;
+			sourceTree = "<group>";
+		};
+		EAA04EB44B03ACA4C14F9F80 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1119308F41D7368214B1B00C /* Pods_SeasonsDB.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D59AD4391C79837900FE431D /* SeasonsDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D59AD44C1C79837900FE431D /* Build configuration list for PBXNativeTarget "SeasonsDB" */;
+			buildPhases = (
+				C69BC8EE19F5171AD0E4ABD3 /* Check Pods Manifest.lock */,
+				D59AD4361C79837900FE431D /* Sources */,
+				D59AD4371C79837900FE431D /* Frameworks */,
+				D59AD4381C79837900FE431D /* Resources */,
+				CA432EDE517F7F83F76DEA92 /* Embed Pods Frameworks */,
+				F040EC63D30198E8382ECB8A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeasonsDB;
+			productName = SeasonsDB;
+			productReference = D59AD43A1C79837900FE431D /* SeasonsDB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D59AD4321C79837900FE431D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Parth Adroja";
+				TargetAttributes = {
+					D59AD4391C79837900FE431D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = D59AD4351C79837900FE431D /* Build configuration list for PBXProject "SeasonsDB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D59AD4311C79837900FE431D;
+			productRefGroup = D59AD43B1C79837900FE431D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D59AD4391C79837900FE431D /* SeasonsDB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D59AD4381C79837900FE431D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59AD4481C79837900FE431D /* LaunchScreen.storyboard in Resources */,
+				D59AD4451C79837900FE431D /* Assets.xcassets in Resources */,
+				D59AD4431C79837900FE431D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C69BC8EE19F5171AD0E4ABD3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CA432EDE517F7F83F76DEA92 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeasonsDB/Pods-SeasonsDB-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F040EC63D30198E8382ECB8A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SeasonsDB/Pods-SeasonsDB-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D59AD4361C79837900FE431D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59AD4401C79837900FE431D /* ViewController.swift in Sources */,
+				D59AD43E1C79837900FE431D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D59AD4411C79837900FE431D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D59AD4421C79837900FE431D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D59AD4461C79837900FE431D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D59AD4471C79837900FE431D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D59AD44A1C79837900FE431D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D59AD44B1C79837900FE431D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D59AD44D1C79837900FE431D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA4B252D64BDC17BFA3A3CF9 /* Pods-SeasonsDB.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SeasonsDB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mastermind.SeasonsDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D59AD44E1C79837900FE431D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CF62E7887A4D2DC643352B2 /* Pods-SeasonsDB.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = SeasonsDB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mastermind.SeasonsDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D59AD4351C79837900FE431D /* Build configuration list for PBXProject "SeasonsDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D59AD44A1C79837900FE431D /* Debug */,
+				D59AD44B1C79837900FE431D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D59AD44C1C79837900FE431D /* Build configuration list for PBXNativeTarget "SeasonsDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D59AD44D1C79837900FE431D /* Debug */,
+				D59AD44E1C79837900FE431D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D59AD4321C79837900FE431D /* Project object */;
+}
